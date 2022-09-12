@@ -29,7 +29,7 @@ const Navbar = () => {
       <>
         <nav className='navbar'>
           <div className='navbar-container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/jrd-electrical-ltd' className='navbar-logo' onClick={closeMobileMenu}>
             <div className='complete-logo'>
               <div className='logo-container'>
                 <div className='logo-top'>JRD</div>
