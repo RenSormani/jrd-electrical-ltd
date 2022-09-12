@@ -15,6 +15,7 @@ import ScrollToTop from './container/ScrollToTop/ScrollToTop';
 
 const App = () => {
   return (
+    <BrowserRouter basename="/jrd-electrical-ltd" />,
       <Router>
         <ScrollToTop />
           <Navbar />
