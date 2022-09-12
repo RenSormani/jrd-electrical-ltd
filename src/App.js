@@ -15,7 +15,7 @@ import ScrollToTop from './container/ScrollToTop/ScrollToTop';
 
 const App = () => {
   return (
-    <BrowserRouter basename="/jrd-electrical-ltd" />,
+    <BrowserRouter history={history} basename= {...env.PUBLIC_URL}>,
       <Router>
         <ScrollToTop />
           <Navbar />
@@ -30,6 +30,7 @@ const App = () => {
             </Routes>
           <Footer />
       </Router>
+      </BrowserRouter>
   )
 }
 
