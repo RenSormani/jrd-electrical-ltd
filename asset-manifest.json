@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/jrd-electrical-ltd/static/css/main.35f39adf.css",
+    "main.js": "/jrd-electrical-ltd/static/js/main.bd496e27.js",
+    "static/js/787.f8341ce6.chunk.js": "/jrd-electrical-ltd/static/js/787.f8341ce6.chunk.js",
+    "static/media/service-1.jpg": "/jrd-electrical-ltd/static/media/service-1.e85fffdd13215ac60468.jpg",
+    "static/media/service-5.jpg": "/jrd-electrical-ltd/static/media/service-5.a559d7bc9f43f885b459.jpg",
+    "static/media/skye-studios-NDLLFxTELrU-unsplash.jpg": "/jrd-electrical-ltd/static/media/skye-studios-NDLLFxTELrU-unsplash.f28412312ffed4eedb0f.jpg",
+    "static/media/residential-image.jpg": "/jrd-electrical-ltd/static/media/residential-image.3ac08e738f0be3263e25.jpg",
+    "static/media/commercial-image.jpg": "/jrd-electrical-ltd/static/media/commercial-image.1398ba0ad46eff6428f9.jpg",
+    "static/media/service-3.jpg": "/jrd-electrical-ltd/static/media/service-3.a4c3b4700aa9442d334e.jpg",
+    "static/media/Electrical-1.jpg": "/jrd-electrical-ltd/static/media/Electrical-1.201bcddc6e6160b3bcc4.jpg",
+    "static/media/trustmark-image.jpg": "/jrd-electrical-ltd/static/media/trustmark-image.9ca6d0aa86d4184acba0.jpg",
+    "static/media/service-4.jpg": "/jrd-electrical-ltd/static/media/service-4.b9883ec3ec6b3dbc7ad1.jpg",
+    "static/media/TrustMark-logo.png": "/jrd-electrical-ltd/static/media/TrustMark-logo.4246ca2ea9297b120f93.png",
+    "static/media/Nic-EIC.png": "/jrd-electrical-ltd/static/media/Nic-EIC.79125fd95814fe193f8c.png",
+    "static/media/power.png": "/jrd-electrical-ltd/static/media/power.4a44d71ac24adf46feea.png",
+    "index.html": "/jrd-electrical-ltd/index.html",
+    "main.35f39adf.css.map": "/jrd-electrical-ltd/static/css/main.35f39adf.css.map",
+    "main.bd496e27.js.map": "/jrd-electrical-ltd/static/js/main.bd496e27.js.map",
+    "787.f8341ce6.chunk.js.map": "/jrd-electrical-ltd/static/js/787.f8341ce6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35f39adf.css",
+    "static/js/main.bd496e27.js"
+  ]
+}
