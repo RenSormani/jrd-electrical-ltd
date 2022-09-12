@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const Links = () => {
   return (
     <Routes>
-              <Route exact path='/jrd-electrical-ltd/' element={<Home />} />
+              <Route path='/jrd-electrical-ltd/' element={<Home />} />
               <Route path='/services' element={<Service />} />
               <Route path='/trustmark' element={<TrustMark />} />
               <Route path='/about' element={<About />} />
