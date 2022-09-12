@@ -19,7 +19,7 @@ const App = () => {
         <ScrollToTop />
           <Navbar />
             <Routes>
-              <Route exact path='/jrd-electrical-ltd/' element={<Home />} />
+              <Route exact path='/' element={<Home />} />
               <Route path='/services' element={<Service />} />
               <Route path='/trustmark' element={<TrustMark />} />
               <Route path='/about' element={<About />} />
