@@ -11,7 +11,6 @@ import Service from './components/Pages/Service/Service';
 import Privacy from './components/Pages/Privacy/Privacy';
 import Terms from './components/Pages/Terms/Terms';
 import ScrollToTop from './container/ScrollToTop/ScrollToTop';
-import Thankyou from './components/Pages/Thankyou';
 
 
 const App = () => {
@@ -27,7 +26,6 @@ const App = () => {
               <Route path='/contact' element={<Contact />} />
               <Route path='/privacy' element={<Privacy />} />
               <Route path='/terms' element={<Terms />} />
-              <Route path='/thankyou' element={<Thankyou />} />
             </Routes>
           <Footer />
       </Router>
