@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=PT+Sans:wght@700&family=Poppins:wght@300;600&display=swap');
+
+.trustmark-container {
+    color: white;
+    background: url('../../../images/trustmark-image.jpg') center center/cover no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+
+    h1 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 6em;
+        align-items: center;
+    }
+}
+   
+.description-container {
+display: flex;
+flex-direction: column;
+align-items: center;;
+}
+
+   .contact-descritpion {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 3em;
+    color: rgb(197, 197, 197);
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 1.8rem;
+    }
+   }
+
+
+   .trust-descritpion {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    padding: 3em;
+    color: rgb(197, 197, 197);
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 1.4rem;
+    }
+   }
+
+
+   .lightbulb {
+    font-size: 70px;
+    color: rgb(185, 185, 185);
+   }
+
+   .lightbulb:hover {
+    color: #fff;
+  }
+
+   .building-regulations {
+    background-color: rgba(0, 0, 0, 0.704);
+    display: flex;
+    text-align: center;
+    width: 70%;
+    padding: 3em;
+    color: rgb(197, 197, 197);
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 1.4rem;
+    }
+
+    .regulator-list{
+        display: flex;
+        text-align: start;
+        justify-content: space-around;
+        padding-top: 1.5rem;
+
+        li {
+            padding: 0.5rem;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+            }
+
+            h2 {
+                font-size: 1.5rem;;
+            }
+        }
+    }
+}
+
+.footer-logo--container {
+display: flex;
+flex-direction: column;
+
+.NIC {
+    width: 200px;
+
+}
+
+.Trust {
+    width: 200px;
+}
+}
+    
+   @media screen and (max-width: 949px) {
+    .form-details--container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+       }
+
+       .all-details {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+       }
+   }
+
+   @media screen and (max-width: 768px) {
+    .contact-descritpion {
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-size: 1.4rem;
+        }
+    }
+
+    .regulator-list {
+        display:flex;
+        flex-direction: column;
+
+    .footer-logo--container {
+        margin-top: 2em;;
+        display: flex;
+        flex-direction: row;
+        
+        .NIC {
+            width: 120px;
+        
+        }
+        
+        .Trust {
+            width: 120px;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 560px) {
+.container {
+    .trustmark-container {
+        color: white;
+        background: url('../../../images/trustmark-image.jpg') center center/cover no-repeat;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+        object-fit: contain;
+    
+        h1 {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            font-size: 4em;
+            align-items: center;
+        }
+    }
+}
+}

@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=PT+Sans:wght@700&family=Poppins:wght@300;600&display=swap");
+
+.contact-container {
+  color: white;
+  background: url("../../../images/service-1.jpg") center center/cover
+    no-repeat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+
+  h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 6em;
+    align-items: center;
+  }
+}
+
+// form styling
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #4796b9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #38809f;
+}
+
+
+.complete-form {
+  background-color: rgb(185, 185, 185);
+  width: 50%;
+  padding: 20px;
+  border: rgb(202, 202, 202) 1px solid;
+  border-radius: 5px;
+  margin-bottom: 40px;
+
+  h1 {
+    color: white;
+  }
+}
+
+.form-details--container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+button {
+  width:100%;
+  background-color: rgba(95, 94, 94, 0.704);
+  color: white;
+
+}
+
+button:hover {
+  background-color: rgb(221, 220, 220);
+  color: gray;
+}
+
+.contact-descritpion {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 3em;
+  color: rgb(197, 197, 197);
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+}
+
+.phone-details {
+  color: gray;
+  p {
+    font-size: 1.2rem;
+    color: rgb(197, 197, 197);
+  }
+}
+
+.office-details {
+  color: gray;
+  p {
+    font-size: 1.2rem;
+    color: rgb(197, 197, 197);
+  }
+}
+
+.all-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 40px;
+
+  .email-address:hover {
+    color: rgb(139, 139, 139);
+}
+}
+
+.contact-box {
+  background-color: rgba(0, 0, 0, 0.704);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+  padding-top: 5em;
+  color: rgb(197, 197, 197);
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .form-details--container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .phone-details {
+    p {
+      font-size: 1.3rem;
+      margin-right: 20px;
+    }
+  }
+
+  .office-details {
+    p {
+      font-size: 1.3rem;
+    }
+  }
+
+  .contact-box {
+    background-color: rgba(0, 0, 0, 0.704);
+    display: flex;
+    text-align: center;
+    width: 50%;
+    padding: 1.5em;
+    color: rgb(197, 197, 197);
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.95rem;
+    }
+
+    .all-details {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-descritpion {
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-size: 1.4rem;
+    }
+  }
+
+  .contact-container {
+    h1 {
+      font-size: 4em;
+    }
+  }
+
+  .complete-form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .complete-form {
+    width: 70%;
+  }
+
+  .contact-box {
+    width: 100%;
+    padding: 1.5em;
+    color: rgb(197, 197, 197);
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-size: 1.2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    .phone-details {
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    .office-details {
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}

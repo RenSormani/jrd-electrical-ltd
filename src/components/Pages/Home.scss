@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=PT+Sans:wght@700&family=Poppins:wght@300;600&display=swap');
+
+.description {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.description-font {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(188, 188, 188);
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 836px) {
+    .description-font {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .description-font {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .description-font {
+        font-size: 17px;
+    }
+}

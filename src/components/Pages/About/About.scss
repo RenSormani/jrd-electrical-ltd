@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=PT+Sans:wght@700&family=Poppins:wght@300;600&display=swap");
+
+.about-container {
+  color: white;
+  background: url("../../../images/skye-studios-NDLLFxTELrU-unsplash.jpg")
+    center center/cover no-repeat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+
+  h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 6em;
+    align-items: center;
+  }
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-descritpion {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  padding: 3em;
+  color: rgb(197, 197, 197);
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+}
+
+.trust-descritpion {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  padding: 3em;
+  color: rgb(197, 197, 197);
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+
+  .heading {
+    font-size: 1.6rem;
+  }
+}
+
+.lightbulb {
+  font-size: 70px;
+  color: rgb(185, 185, 185);
+}
+
+.building-regulations {
+  background-color: rgba(0, 0, 0, 0.704);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  padding: 3em;
+  color: rgb(197, 197, 197);
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-descritpion {
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 300;
+      font-size: 1.4rem;
+    }
+  }
+
+  .contact-container {
+    h1 {
+      font-size: 4em;
+    }
+  }
+
+  .complete-form {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    .about-container {
+      h1 {
+        font-size: 4em;
+      }
+    }
+
+    .description-container {
+      .contact-descritpion {
+        h1 {
+          font-size: 1.4rem;
+        }
+      }
+
+      .trust-descritpion {
+        width: 100%;
+        padding: 3em;
+
+        h1 {
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .building-regulations {
+      width: 100%;
+      padding: 3em;
+
+      h1 {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
