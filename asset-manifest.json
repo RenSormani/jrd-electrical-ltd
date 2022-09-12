@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jrd-electrical-ltd/static/css/main.35f39adf.css",
-    "main.js": "/jrd-electrical-ltd/static/js/main.bd496e27.js",
+    "main.css": "/jrd-electrical-ltd/static/css/main.acae53e9.css",
+    "main.js": "/jrd-electrical-ltd/static/js/main.d344de9d.js",
     "static/js/787.f8341ce6.chunk.js": "/jrd-electrical-ltd/static/js/787.f8341ce6.chunk.js",
     "static/media/service-1.jpg": "/jrd-electrical-ltd/static/media/service-1.e85fffdd13215ac60468.jpg",
     "static/media/service-5.jpg": "/jrd-electrical-ltd/static/media/service-5.a559d7bc9f43f885b459.jpg",
@@ -16,12 +16,12 @@
     "static/media/Nic-EIC.png": "/jrd-electrical-ltd/static/media/Nic-EIC.79125fd95814fe193f8c.png",
     "static/media/power.png": "/jrd-electrical-ltd/static/media/power.4a44d71ac24adf46feea.png",
     "index.html": "/jrd-electrical-ltd/index.html",
-    "main.35f39adf.css.map": "/jrd-electrical-ltd/static/css/main.35f39adf.css.map",
-    "main.bd496e27.js.map": "/jrd-electrical-ltd/static/js/main.bd496e27.js.map",
+    "main.acae53e9.css.map": "/jrd-electrical-ltd/static/css/main.acae53e9.css.map",
+    "main.d344de9d.js.map": "/jrd-electrical-ltd/static/js/main.d344de9d.js.map",
     "787.f8341ce6.chunk.js.map": "/jrd-electrical-ltd/static/js/787.f8341ce6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35f39adf.css",
-    "static/js/main.bd496e27.js"
+    "static/css/main.acae53e9.css",
+    "static/js/main.d344de9d.js"
   ]
 }
