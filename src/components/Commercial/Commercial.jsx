@@ -6,7 +6,9 @@ const Commercial = () => {
   return (
 <div className="commercial-container">
       <h1>Commercial</h1>
+      <div className='hero-text'>
       <p>Electrics for your workspace</p>
+      </div>
       <div className='hero-btns'>
         <Button
           className='btns'

@@ -7,7 +7,9 @@ const HeroSection = () => {
   return (
     <div className='hero-container'>
       <h1>JRD ELECTRICAL</h1>
+      <div className='hero-text'>
       <p>Shockingly good electricians since 1991</p>
+      </div>
       <div className='hero-btns'>
         <Button
           className='btns'

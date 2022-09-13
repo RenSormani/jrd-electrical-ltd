@@ -25,6 +25,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
+
+  .hero-text {
+    font-size: 30px;
+    p {
+    color: white;
+    }
+  }
   
   .hero-btns {
     margin-top: 32px;
@@ -53,13 +60,22 @@
 }
 
     .hero-container > h1 {
-      font-size: 50px;
+      font-size: 40px;
       margin-top: -100px;
     }
-  
-    .hero-container > p {
-      font-size: 30px;
+
+      .hero-text {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px;
+        
+        p {
+          font-size: 18px;
+          color: white;
+        }
+    
     }
+  
   
     .btn-mobile {
       display: block;

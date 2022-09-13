@@ -6,7 +6,9 @@ const Residential = () => {
   return (
 <div className="residential-container">
       <h1>Residential</h1>
+      <div className='hero-text'>
       <p>Light up your homes...</p>
+      </div>
       <div className='hero-btns'>
         <Button
           className='btns'
